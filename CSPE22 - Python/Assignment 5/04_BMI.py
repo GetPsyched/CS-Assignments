@@ -21,7 +21,7 @@ def main():
     # Calculating the BMI
     bmi = (weight * 0.45359237) / ((height * 0.0254) ** 2)
 
-    print(f'The BMI is {bmi} and the category is {get_category(bmi)}')
+    print(f'The BMI is {bmi:.2f} and the category is {get_category(bmi)}')
 
 if __name__ == '__main__':
     main()

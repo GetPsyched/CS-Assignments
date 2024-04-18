@@ -1,7 +1,7 @@
 def main():
     """Question 3
 
-    Python program to find the sum and average of the list.
+    Write a Python program to find the sum and average of the list.
     """
     elements = list(map(int, input('Enter the elements --> ').split()))
     total = sum(elements)

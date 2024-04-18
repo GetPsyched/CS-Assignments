@@ -13,4 +13,4 @@ def main():
     print(f'{eval(str(x))} {eval(str(y))}')
 
 if __name__ == '__main__':
-   main()
+    main()
